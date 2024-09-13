@@ -1,3 +1,6 @@
-h1 {
+.weather-app-city {
   color: red;
+}
+weather-app-city {
+  color: green;
 }
