@@ -19,14 +19,13 @@ a {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   padding: 30px;
-  background-color: white;
-  display: block;
-  unicode-bidi: isolate;
 }
 
 header {
   border-bottom: 1px solid #f9f7fe;
   padding: 0 0 30px 0;
+  display: block;
+  unicode-bidi: isolate;
 }
 
 .search-form-input {
@@ -37,8 +36,8 @@ header {
   font-size: 16px;
   padding: 15px 20px;
   display: block;
-  margin-top: 0px;
   unicode-bidi: isolate;
+  margin-top: 0em;
 }
 
 .search-form-button {
@@ -49,6 +48,9 @@ header {
   margin-left: 5px;
   border-radius: 6px;
   color: white;
+  display: block;
+  unicode-bidi: isolate;
+  margin-top: 0em;
 }
 
 main {
