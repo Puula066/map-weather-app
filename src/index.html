@@ -7,28 +7,50 @@
     <title>Map-weather App</title>
   </head>
   <body>
-    <div>
-      <h1>Paris</h1>
-      <p>
-        Thursday 18:57, broken clouds
-        <br />
-        Humidity: 76%, Wind: 1.54km/h
-      </p>
+    <div class="weath-app">
+      <header>
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city...."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="search-form-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city">Paris</h1>
+            <p class="weather-app-details">
+              Thursday 18:57, broken clouds
+              <br />
+              Humidity: <strong>76%</strong> , Wind: <strong>1.54km/h</strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">🌤️</div>
+            <div class="weather-app-temperature">12</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Puula066" target="_blank"> Mapula Seobi</a>,
+        is
+        <a href="https://github.com/Puula066/map-weather-app" target="_blank">
+          open-soursed on GitHub</a
+        >
+        and
+        <a
+          href="https://app.netlify.com/sites/map-weather-app/overview"
+          target="_blank"
+          >hosted on Netlify.</a
+        >
+      </footer>
     </div>
-    <div>13°C</div>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Puula066" target="_blank"> Mapula Seobi</a>,
-      is
-      <a href="https://github.com/Puula066/map-weather-app" target="_blank">
-        open-soursed on GitHub</a
-      >
-      and
-      <a
-        href="https://app.netlify.com/sites/map-weather-app/overview"
-        target="_blank"
-        >hosted on Netlify.</a
-      >
-    </footer>
   </body>
 </html>
