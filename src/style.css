@@ -1,11 +1,7 @@
 body {
   background-color: #f9f7fe;
   font-family: "Roboto", sans-serif;
-  display: block;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
+  
 }
 
 a {
@@ -19,14 +15,13 @@ a {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   padding: 30px;
-  background-clip: border-box;
+ 
 }
 
 header {
   border-bottom: 1px solid #f9f7fe;
   padding: 0 0 30px 0;
-  display: block;
-  unicode-bidi: isolate;
+  
 }
 
 .search-form-input {
@@ -36,9 +31,7 @@ header {
   width: 80%;
   font-size: 16px;
   padding: 15px 20px;
-  display: block;
-  unicode-bidi: isolate;
-  margin-top: 0em;
+  
 }
 
 .search-form-button {
@@ -49,9 +42,7 @@ header {
   margin-left: 5px;
   border-radius: 6px;
   color: white;
-  display: block;
-  unicode-bidi: isolate;
-  margin-top: 0em;
+ 
 }
 
 main {
@@ -106,6 +97,5 @@ footer {
   text-align: center;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
-  display: block;
-  unicode-bidi: isolate;
+  
 }
